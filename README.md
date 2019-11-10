@@ -33,3 +33,13 @@ console
 doesn’t exist, it should write “-1”.
 * Using the LinkedList<T> class from JAVA API is allowed
 * Using any method that automatically sort the list is not allowed, you have to create an algorithm that does the sorting
+
+**--------------------------------------------------------------------------------------------------------------------------**
+
+## Testing
+In this case, we will be doing a white-box testing, as the testers (that is to say, ourselves) have access to the source code, and we are aware of the internal workins of the code.
+
+The first thing we did was to put a _System.currentTimeMillis()_ in the beginning and end of the "FileWriter" code lines to see the time it takes to run the whole code (ordering the words, write them on a text file, and print them in the main class).
+
+The first problem we had was the time it takes to actually run the whole code, which takes an average of 1 hour. For that reason, we decided to create another code to be faster.
+
