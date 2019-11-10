@@ -37,7 +37,7 @@ doesn’t exist, it should write “-1”.
 **--------------------------------------------------------------------------------------------------------------------------**
 
 ## Testing
-In this case, we will be doing a white-box testing, as the testers (that is to say, ourselves) have access to the source code, and we are aware of the internal workins of the code.
+In this case, we will be doing a **white-box** testing, as the testers (that is to say, ourselves) have access to the source code, and we are aware of the internal workins of the code.
 
 The first thing we did was to put a _System.currentTimeMillis()_ in the beginning and end of the "FileWriter" code lines to see the time it takes to run the whole code (ordering the words, write them on a text file, and print them in the main class).
 
@@ -47,6 +47,6 @@ In this new code, we also implemented the _System.currentTimeMillis()_  function
 
 Then, we put another _System.currentTimeMillis()_ in the file scanner to see how much time it took to scan the 10,000 words. In this case, we ended up with an average time of 305 ms.
 
-Apart from that, after doing some debug testing, we couldn't find a faster way to run the code and reduce the average running time. 
+Apart from that, after doing some debug testing, we couldn't find a faster and more effective way to run the code and reduce the average running time. 
 
 
