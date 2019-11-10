@@ -30,7 +30,7 @@ public class NewDictionaryCode {
         }
 
         long t2 =System.currentTimeMillis();
-        System.out.println("The time to run the code was: "+ (t2-t1));
+        System.out.println("The time to run the code was: "+ (t2-t1) + " ms.");
 
         writer.close();
     }
@@ -51,9 +51,7 @@ public class NewDictionaryCode {
 
         //Scanner to scan the file
         Scanner scan = new Scanner(f);
-
-        FileWriter writer = new FileWriter("dictTest.txt");
-
+        
         String string = "";
         List<String> words = new ArrayList<String>();
 
@@ -64,7 +62,7 @@ public class NewDictionaryCode {
             words.add(string);
         }
         long t4 =System.currentTimeMillis();
-        System.out.println("The time it took to scan the file was: " + (t4-t3));
+        System.out.println("The time it took to scan the file was: " + (t4-t3) + " ms.");
 
 
         scan.close();
