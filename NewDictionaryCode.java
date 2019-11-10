@@ -8,7 +8,7 @@ public class NewDictionaryCode {
 
 
     public static void sorting(List<String> array) throws IOException {
-        FileWriter writer=new FileWriter("DTest.txt");
+        FileWriter writer=new FileWriter("sorteddict.txt");
 
         long t1 =System.currentTimeMillis();
         int k;
