@@ -41,5 +41,12 @@ In this case, we will be doing a white-box testing, as the testers (that is to s
 
 The first thing we did was to put a _System.currentTimeMillis()_ in the beginning and end of the "FileWriter" code lines to see the time it takes to run the whole code (ordering the words, write them on a text file, and print them in the main class).
 
-The first problem we had was the time it takes to actually run the whole code, which takes an average of 1 hour. For that reason, we decided to create another code to be faster.
+The first problem we had was the time it takes to actually run the whole code, which takes an average of 1 hour. For that reason, we decided to create another code to be faster (_NewDictionaryCode.java_).
+
+In this new code, we also implemented the _System.currentTimeMillis()_  function. In this case, after testing and running the code several times, the average time it takes to run the whole code is 10 mins, that is to say, after several trys, we had an average of 732693 ms. (An example has been made with a random try and time, in the dictTest
+
+Then, we put another _System.currentTimeMillis()_ in the file scanner to see how much time it took to scan the 10,000 words. In this case, we ended up with an average time of 305 ms.
+
+Apart from that, after doing some debug testing, we couldn't find a faster way to run the code and reduce the average running time. 
+
 
