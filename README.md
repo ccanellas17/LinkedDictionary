@@ -37,7 +37,7 @@ doesn’t exist, it should write “-1”.
 **--------------------------------------------------------------------------------------------------------------------------**
 
 ## Testing
-In this case, we will be doing a **white-box** testing, as the testers (that is to say, ourselves) have access to the source code, and we are aware of the internal workins of the code.
+In this case, we will be doing a **white-box** testing, as the testers (that is to say, ourselves) have access to the source code, and we are aware of the internal workings of the code.
 
 The first thing we did was to put a _System.currentTimeMillis()_ in the beginning and end of the "FileWriter" code lines to see the time it takes to run the whole code (ordering the words, write them on a text file, and print them in the main class).
 
