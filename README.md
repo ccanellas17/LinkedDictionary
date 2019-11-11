@@ -57,7 +57,7 @@ CP1: Meanignful Names:
 CP2: Keeping Functions small:  
 CP3: Avoiding redundant commenting:  
 CP4: Single responsibility principle:  
-CP5: Don't Repeat yourself: 
+CP5: Don't Repeat yourself:  
 CP6: Keep your code simple:   
 CP7: You Ain't gonna need it:  
 
