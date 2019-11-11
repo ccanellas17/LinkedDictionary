@@ -34,7 +34,7 @@ doesn’t exist, it should write “-1”.
 * Using the LinkedList<T> class from JAVA API is allowed
 * Using any method that automatically sort the list is not allowed, you have to create an algorithm that does the sorting
 
-**--------------------------------------------------------------------------------------------------------------------------**
+**--------------------------------------------------------------------------------------------------------------------**
 
 ## Testing
 In this case, we will be doing a **white-box** testing, as the testers (that is to say, ourselves) have access to the source code, and we are aware of the internal workings of the code.
