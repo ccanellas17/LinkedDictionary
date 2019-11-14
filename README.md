@@ -92,7 +92,7 @@ public static void scanForWord(LinkedList<String> array, String s) { //Scan if a
 ```
 
 
-As we can see, we first let the user input an option depending on what he/she wants to do. In this case we only have 3 options: print the list, find if a word is inside the list and its position, and exit the program.
+As we can see, we first let the user input an option depending on what he/she wants to do. In this case we only have 3 options: print the list (a), find if a word is inside the list and its position (b), and exit the program (e).
 
 What we are showing in the second and third part of the java text, is the code used to find if a word is already in the Linked List, or not, and look for its position.
 
