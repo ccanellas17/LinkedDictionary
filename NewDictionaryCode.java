@@ -39,15 +39,15 @@ public class NewDictionaryCode {
     }
 
     public static void scanForWord(LinkedList<String> array, String s) { //Scan if a word is already in the list or not
-        
+
         if(array.contains(StringUtils.decapitalize(s))){
             s = StringUtils.decapitalize(s);
             System.out.println("The word " + s + " is in the position " + array.indexOf(s) + " of the list." + "\n");
-            
+
         }else if(array.contains(StringUtils.capitalize(s))){
             s = StringUtils.capitalize(s);
             System.out.println("The word " + s + " is in the position " + array.indexOf(s) + " of the list." + "\n");
-            
+
         }else{
             System.out.println("This word is not inside this list." + "\n");
         }
@@ -82,9 +82,10 @@ public class NewDictionaryCode {
         //Here will be the user inputs available
         boolean flag = true;
         while (flag) {
-            System.out.println("- If you want to print the list sorted, type a." + "\n" +
-                    "- If you want to know if a word is already in the list, type b"+ "\n" +
-                    "- If you want to exit, type e.");
+            System.out.println("=======MAIN MENU=======");
+            System.out.println("* If you want to print the list sorted, type a." + "\n" +
+                    "* If you want to know if a word is already in the list and its position, type b"+ "\n" +
+                    "* If you want to exit, type e.");
 
             String response = scanner.nextLine();
 
@@ -97,7 +98,7 @@ public class NewDictionaryCode {
                 }
                 System.out.println(" ");
             }
-            
+
 
             else if(response.equalsIgnoreCase("b")){
 
@@ -119,3 +120,4 @@ public class NewDictionaryCode {
         }
     }
 }
+
