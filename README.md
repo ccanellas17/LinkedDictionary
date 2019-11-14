@@ -81,8 +81,8 @@ Then, we put another _System.currentTimeMillis()_ in the file scanner to see how
             string = scan.nextLine();
             words.add(string);
         }
-        long t2 = System.currentTimeMillis();
-        System.out.println("The time to run the code was: " + (t2-t1) + " ms.");
+long t2 = System.currentTimeMillis();
+System.out.println("The time to run the code was: " + (t2-t1) + " ms.");
 ```
 
 Apart from that, after doing some debug testing, we couldn't find a faster and more effective way to run the code and reduce the average running time. 
