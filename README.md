@@ -138,7 +138,7 @@ What we are showing in the second and third part of the java text, is the code u
 
 ## Coding Principles
 
-**CP1: Meanignful Names:**
+### CP1: Meanignful Names:
 
 As explained on the Coding Principles slides, "Good names takes time but saves on the long run". Moreover, with the autocomplete 'Tab' function, even though you have a really long name for a method or variable, it will be easier for us to select the name we want to better categorize each part in our code. These are some examples from the previous code, and the new one:
 
@@ -157,7 +157,7 @@ public static void sorting(List<String> array) throws IOException {
 ```        
 **[...]**
 
-#### _Before:_
+##### _Before:_
 
 ```ruby
  public static void scanForWord(LinkedList<String> array, String s) { //Scan if a word is already in the list or not
@@ -166,7 +166,7 @@ public static void sorting(List<String> array) throws IOException {
             s = StringUtils.decapitalize(s);
             System.out.println("The word " + s + " is in the position " + array.indexOf(s) + " of the list." + "\n");
 ```
-#### _After:_
+##### _After:_
 
 ```ruby
 public static void scanForWordAndFindPosition(LinkedList<String> list, String wordToLookFor) { //Scan if a word is already in the list or not
@@ -179,7 +179,7 @@ public static void scanForWordAndFindPosition(LinkedList<String> list, String wo
 
 You can see that before, the method and variable names where really simple and could get confused on what exactly they are doing or what do they mean. But now, we have a clear image of what each thing is doing if in the future we want to commit any changes to the code.
 
-**CP2: Keeping Functions small:**
+### CP2: Keeping Functions small:
 
 In our case we don't have long functions or methods, as we believe is a really simple code. However, in some occassions we had to make two methods to enclose more variables, as for example in the _sortListandFileWriter()_ class, where we created another class called _swapWords()_. If we hadn't done that we would have a mess with all the variables. Here we can see the classes im talking about:
 
@@ -207,7 +207,7 @@ private static void swapWords(int i, int j, List<String> list) { //When the sort
 
 We can see that at the end of the _if_ statement we have called the _swapWords()_ class.  
 
-**CP3: Avoiding redundant commenting:**
+### CP3: Avoiding redundant commenting:
 
 As we already put good reasonable names for our classes, some of the comments that we wrote next to them previously to know exactly what were they doing, are now redundant, that's why we deleted them:
 
@@ -257,12 +257,12 @@ On the other hand, we decided to keep come comments fr better understanding of t
                     "* If you want to know if a word is alre...
 ```                    
 
-**CP4: Single responsibility principle:**
+### CP4: Single responsibility principle:
 
-**CP5: Don't Repeat yourself:**
+### CP5: Don't Repeat yourself:
 
-**CP6: Keep your code simple:**
+### CP6: Keep your code simple:
 
-**CP7: You Ain't gonna need it:**  
+### CP7: You Ain't gonna need it:
 
 
