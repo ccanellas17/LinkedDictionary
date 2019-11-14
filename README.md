@@ -49,6 +49,14 @@ Then, we put another _System.currentTimeMillis()_ in the file scanner to see how
 
 Apart from that, after doing some debug testing, we couldn't find a faster and more effective way to run the code and reduce the average running time. 
 
+After that we decided to let the user do a simple test, which in this case was checking if a word has been already implemented inside the Linked list or not:
+
+````
+System.out.println("- If you want to print the list sorted, type a." + "\n" +
+                    "- If you want to know if a word is already in the list, type b"+ "\n" +
+                    "- If you want to exit, type e.");
+````
+
 **--------------------------------------------------------------------------------------------------------------------**
 
 ## Coding Principles
