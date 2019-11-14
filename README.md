@@ -51,11 +51,50 @@ Apart from that, after doing some debug testing, we couldn't find a faster and m
 
 After that we decided to let the user do a simple test, which in this case was checking if a word has been already implemented inside the Linked list or not:
 
-````
+````ruby
 System.out.println("- If you want to print the list sorted, type a." + "\n" +
-                    "- If you want to know if a word is already in the list, type b"+ "\n" +
-                    "- If you want to exit, type e.");
+                    "- If you want to know if a word is already in the list and its position, type b"+ "\n" +
+                    "- If you want to exit, type e.");                  
 ````
+
+**[...]**
+
+```ruby
+ else if(response.equalsIgnoreCase("b")){
+
+                System.out.println("Input the word you want to look for: ");
+                String s = scanner.nextLine();
+
+                scanForWord(words, s);
+
+            }
+```    
+
+**[...]**
+
+```ruby
+public static void scanForWord(LinkedList<String> array, String s) { //Scan if a word is already in the list or not
+        
+        if(array.contains(StringUtils.decapitalize(s))){
+            s = StringUtils.decapitalize(s);
+            System.out.println("The word " + s + " is in the position " + array.indexOf(s) + " of the list." + "\n");
+            
+        }else if(array.contains(StringUtils.capitalize(s))){
+            s = StringUtils.capitalize(s);
+            System.out.println("The word " + s + " is in the position " + array.indexOf(s) + " of the list." + "\n");
+            
+        }else{
+            System.out.println("This word is not inside this list." + "\n");
+        }
+
+
+    }
+```
+
+
+As we can see, we first let the user input an option depending on what he/she wants to do. In this case we only have 3 options: print the list, find if a word is inside the list and its position, and exit the program.
+
+What we are showing in the second and third part of the java text, is the code use to find if a word and look for its position.
 
 **--------------------------------------------------------------------------------------------------------------------**
 
