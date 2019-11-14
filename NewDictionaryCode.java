@@ -60,7 +60,7 @@ public class NewDictionaryCode {
     public static void main(String[] args) throws IOException {
 
         //Create access to the unsorted dictionary file
-        File f = new File("/Users/carlos/IdeaProjects/pair-programming/src/com/company/test.txt");
+        File f = new File("/Users/carlos/IdeaProjects/pair-programming/src/com/company/unsorteddict.txt");
 
         //Scanner to scan the file
         Scanner scan = new Scanner(f);
