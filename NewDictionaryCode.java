@@ -39,12 +39,15 @@ public class NewDictionaryCode {
     }
 
     public static void scanForWord(LinkedList<String> array, String s) { //Scan if a word is already in the list or not
+        
         if(array.contains(StringUtils.decapitalize(s))){
             s = StringUtils.decapitalize(s);
             System.out.println("The word " + s + " is in the position " + array.indexOf(s) + " of the list." + "\n");
+            
         }else if(array.contains(StringUtils.capitalize(s))){
             s = StringUtils.capitalize(s);
             System.out.println("The word " + s + " is in the position " + array.indexOf(s) + " of the list." + "\n");
+            
         }else{
             System.out.println("This word is not inside this list." + "\n");
         }
@@ -111,7 +114,7 @@ public class NewDictionaryCode {
             }
 
             else{
-                System.out.println("This argument doesn't exist, try 'a, b, c, or e'" + "\n");
+                System.out.println("This argument doesn't exist, try 'a, b, or e'" + "\n");
             }
         }
     }
