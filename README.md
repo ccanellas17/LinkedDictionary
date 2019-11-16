@@ -263,6 +263,14 @@ On the other hand, we decided to keep come comments fr better understanding of t
 
 ### CP6: Keep your code simple:
 
+In our case, the code we did is already simple, with basic functions and classes. We believe in this aspect we canot change anything to be simpler for us and for the user. As we can see, the part for the user inputs cannot be any easier to understand and to use. The main menu for the user input is shown below:
+
+> **==================MAIN MENU====================
+> * If you want to print the list sorted, type a.
+> * If you want to know if a word is already in the list and its position, type b
+> * If you want to exit, type e.**
+
+
 ### CP7: You Ain't gonna need it:
 
 
