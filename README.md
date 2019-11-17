@@ -269,6 +269,20 @@ The Single Responsibility principle says that every class or module in a program
 
 ### CP5: Don't Repeat yourself:
 
+Throughout our code, we made sure to abstract out common code and put it in one location. This allowed us to avoid repetitive and duplicated code. Nothing is repeated and called twice since everything that is should be done is within its own method.
+We also used a boolean whithin our **NewDictionaryCode.Java** in order to avoid duplication.
+
+``` ruby
+boolean flag = true;
+        while (flag) {
+            System.out.println("=======MAIN MENU=======");
+            System.out.println("* If you want to print the list sorted, type 'print'." + "\n" +
+                    "* If you want to know if a word is already in the list and its position, type 'word'."+ "\n" +
+                    "* If you want to exit, type 'exit'.");
+
+            String userInput = userInputScanner.nextLine();
+```
+
 ### CP6: Keep your code simple:
 
 In our case, the code we did is already simple, with basic functions and classes. We believe in this aspect we canot change anything to be simpler for us and for the user. As we can see, the part for the user inputs cannot be any easier to understand and to use. The main menu for the user input is shown below:
@@ -281,4 +295,5 @@ In our case, the code we did is already simple, with basic functions and classes
 
 ### CP7: You Ain't gonna need it:
 
+After reviewing our **OldCode** a couple of times, we came accross methods that did not work out well for us, and this caused delays in the runtime of our project. For this case, we created an entirely new main called **NewDictionaryCode.java** by implementing a complete new approach. 
 
