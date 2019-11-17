@@ -259,6 +259,12 @@ On the other hand, we decided to keep come comments fr better understanding of t
 ```                    
 
 ### CP4: Single responsibility principle:
+The Single Responsibility principle says that every class or module in a program should have responsibility for just a single piece of that program's functionality. In our case, we only have 4 classes where every one of them has one purpose. Below we have our classes and their purpose:
+
+* main() In charge of the user inputs and calling other classes.
+* sortListandFileWriter() Sort the list of words and write the sorted file.
+* swapWords() Swaps the words when finds its actual position.
+* scanForWordAndFindPosition() Finds position of the word inputed by the user.
 
 ### CP5: Don't Repeat yourself:
 
