@@ -274,4 +274,4 @@ In our case, the code we did is already simple, with basic functions and classes
 
 ### CP7: You Ain't gonna need it:
 
-
+After reviewing our **OldCode** a couple of times, we came accross methods that did not work out well for us, and this caused delays in the runtime of our project. For this case, we created an entirely new main called **NewDictionaryCode.java** by implementing a complete new approach. 
